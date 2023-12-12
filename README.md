@@ -6,6 +6,9 @@ Antes de poder utilizar a Classe CPF, é necessário importar para dentro do pro
 
 # Como Funciona?
 Para utilizar basta instanciar a Classe CPF, passando no parâmetro o CPF a ser verificado. Pode passar o CPF tanto com as pontuações como `696.197.530-54` ou sem como `69619753054`.
+
 `CPF variavel = new CPF("69619753054");`
+
 Após instanciar a Classe, apenas é preciso acessar o método `Validar()` que o resultado da verificação será gerado.
+
 `bool resposta = variavel.Validar()`
